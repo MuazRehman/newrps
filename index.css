@@ -1,0 +1,91 @@
+
+
+* {
+     margin:    0;
+     padding:   0;
+     box-sizing: border-box;
+     }
+     
+body{
+    background: teal;
+}
+
+header{
+    background: black;
+    padding-left: 20px;
+}
+h1 {
+    color: white;
+    text-align: center;
+    font-family: Asap.sans-serif;
+    }
+    
+.score-board{
+    border: 5px solid black;
+    margin: 20px auto;
+    width: 400px;
+    border-radius: 50px;
+    text-align: center;
+    width: 300px;
+    color: black;    
+    font-size: 35px;
+    padding: 30px 30px;
+    font-family: asap, sans-serif;
+    position: relative;
+    }
+    
+.badge {
+        background: black;
+        color: white;
+        font-style: 10px;
+        padding: 5px 20px;
+        font-family: asap, sans-serif;
+}
+    
+#user-label {
+    position: absolute;
+    top: 30px;
+    left: -25px;
+}
+
+#computer-label {
+    position: absolute;
+    top: 30px;
+    right: -30px;
+}
+
+.result {
+    font-size: 23px;
+    color: black;
+}
+.result > p {
+    text-align: center;
+    font-weight: bold;
+    }
+
+.choices {
+    margin: 10px;
+    text-align: center;
+}
+
+.choice {
+    border: 30px solid white;
+    border-radius: 360%; 
+    margin: 0 20px;
+    display: inline-block;
+    transition: all .3s ease;       
+
+}
+
+.choice:hover {
+    cursor: pointer;
+    background: black;
+    }
+#mam {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 70px;
+}
+
